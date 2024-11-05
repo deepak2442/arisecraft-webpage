@@ -1,0 +1,44 @@
+.discover_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    padding: 5em 10em;
+}
+
+.discover_left_image {
+
+}
+
+.discover_left_image img {
+    width: 35em;
+}
+
+.discover_right_content {
+    padding-left: 6em;
+    text-align: left;
+}
+
+.discover_right_content h2 {
+    color: #4054b2;
+    font-size: 29px;
+    font-family:'Barlow',sans-serif;
+}
+
+.discover_right_content p {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.discover_right_content button {
+    background-color: #0170b9;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 1.3em 3.2em;
+    margin-top: 2em;
+}
+
+.discover_right_content button:hover {
+    background-color: #196cff;
+}

@@ -1,0 +1,29 @@
+.counting_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f8fd;
+    color: black;
+    padding: 5em 10em;
+    text-align: center;
+}
+
+.counting_div {
+    border-right: 1px solid #cbd2de;
+    padding-right: 5em;
+    height: 6em;
+
+}
+
+.counting_div span {
+font-size: 50px;
+color: #2672f4;
+font-weight: 600;
+padding: 0;
+margin: 0;
+}
+
+.counting_div p {
+    padding: 0;
+    margin: 0;
+}

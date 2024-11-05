@@ -1,0 +1,73 @@
+  .techno_main {
+    background-color: #f4f8fd;
+    color: #000;
+    display: flex;
+    
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 2em 10em;
+  }  
+  
+  .techno_content {
+    display: flex;
+    position: relative;
+  }
+
+  .techno_right {
+    width: 50em;
+    padding-right: 20em;
+  }
+  .techno_right h4 {
+    font-size: 2.4em;
+    font-weight:600 ;
+  }
+  /* .techno_right span {
+    padding-right: 1em;
+    background-color: #ff5e14;
+    color: #ff5e14;
+  } */
+
+  .techno_left {
+    position: absolute;
+    bottom: 1em;
+    right: 2.5em;
+  }
+  .techno_left button {
+    padding: 1em 3em;
+    background-color: #053eff;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .techno_left button img {
+    width:1em;
+    margin-left: 0.5em;
+  }
+
+  .techno_left button:hover {
+    background-color: #053fffa8;
+    transition: 0.3s ease-out;
+    z-index: 1;
+    box-shadow: 12px 12px 8px 3px #00000029;
+  }
+
+  .lang_image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+
+  }
+
+    .img-card{
+        width: 5em;
+        margin: 1em;
+        transition: width 0.4s;
+        
+    }
+    .img-card:hover {
+        box-shadow: 2px 3px 5px #00000029;
+        
+    }
